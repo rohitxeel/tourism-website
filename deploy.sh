@@ -86,7 +86,7 @@ else
     echo "❌ Error during push. Please check:"
     echo "  - GitHub username is correct"
     echo "  - Repository exists on GitHub"
-    echo "  - You're authenticated with GitHub"
+    echo "  - You are authenticated with GitHub"
     echo ""
     exit 1
 fi

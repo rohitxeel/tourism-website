@@ -37,7 +37,7 @@ Write-Host "4. Click 'Create repository'"
 Write-Host "5. Return and press ENTER to continue this script"
 Write-Host ""
 
-$readyKey = Read-Host "Press ENTER when you've created the repository..."
+$readyKey = Read-Host "Press ENTER when you have created the repository..."
 
 Write-Host ""
 Write-Host "🔄 Setting up remote repository..." -ForegroundColor Cyan
@@ -95,7 +95,7 @@ else {
     Write-Host "❌ Error during push. Please check:" -ForegroundColor Red
     Write-Host "  - GitHub username is correct"
     Write-Host "  - Repository exists on GitHub"
-    Write-Host "  - You're authenticated with GitHub"
+    Write-Host "  - You are authenticated with GitHub"
     Write-Host ""
     exit 1
 }
